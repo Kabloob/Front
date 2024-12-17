@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://proyectoweb2-production.up.railway.app/api', // Base URL de tu backend
+  baseURL: 'https://back-production-8fa1.up.railway.app/api', // Base URL de tu backend
   timeout: 5000, // Tiempo máximo de espera para las solicitudes
 });
 
